@@ -1,0 +1,14 @@
+[tool.poetry]
+package-mode = false
+name = "tasks-python-2025"
+version = "0.1.0"
+description = "A collection of tasks and algorithms"
+authors = ["moliinyk maks.oliynik228@gmail.com"]
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+jupyterlab = "^4.4.7"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
