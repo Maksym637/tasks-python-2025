@@ -1,4 +1,3 @@
-# Defining our class
 class DataProjector:
     def __init__(self, data):
         self.data = data
